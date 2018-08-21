@@ -12,6 +12,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    @stack('styles')
 </head>
 <body>
     <div id="app">
@@ -22,5 +24,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('public/js/app.js') }}"></script>
+    <script src="{{ asset('resources/assets/js/vendor/bootstrap/3.3.7/bootstrap.js') }}"></script>
+    @stack('scripts')
 </body>
 </html>
